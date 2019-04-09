@@ -1,0 +1,226 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	default-font:"default-font"
+}
+com.badlogic.gdx.graphics.Color: {
+	active: {
+		r: 0.09825981
+		g: 0.8688235
+		b: 0.81083024
+		a: 1
+	}
+	bg-col: {
+		r: 0.14901961
+		g: 0.13333334
+		b: 0.38431373
+		a: 0.8
+	}
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	green: {
+		r: 0
+		g: 1
+		b: 0
+		a: 1
+	}
+	red: {
+		r: 1
+		g: 0
+		b: 0
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	dialogDim: {
+		name: white
+		color: {
+			r: 0
+			g: 0
+			b: 0
+			a: 0.45
+		}
+	}
+	button-down: {
+		name: button
+		color: active
+	}
+	button-filled-down: {
+		name: button-filled
+		color: active
+	}
+	selected: {
+		name: white
+		color: active
+	}
+	bg-simple: {
+		name: white
+		color: bg-col
+	}
+	slider-knob-down: {
+		name: default-slider-knob
+		color: active
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: button
+		down: button-down
+	}
+	toggle: {
+		up: button
+		down: button-down
+		checked: button-down
+	}
+	switch: {
+		up: switch-off
+		checked: switch-on
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: button-filled-down
+		checkboxOff: button-filled
+		font: default-font
+		fontColor: white
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: default-font
+		fontColor: white
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: default-font
+		fontColorSelected: white
+		fontColorUnselected: white
+		selection: selected
+		background: bg-simple
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default-horizontal: {
+		background: default-slider
+		knob: default-slider-knob
+	}
+	default-vertical: {
+		background: default-slider
+		knob: default-round-large
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		hScrollKnob: default-round-large
+		vScrollKnob: default-round-large
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+	default: {
+		font: default-font
+		fontColor: white
+		background: filled-bg
+		scrollStyle: default
+		listStyle: default
+		backgroundOpen: filled-bg
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-horizontal: {
+		knobDown: slider-knob-down
+		background: default-slider
+		knob: default-slider-knob
+	}
+	default-vertical: {
+		background: default-slider
+		knob: default-round-large
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
+	default-horizontal: {
+		handle: default-splitpane
+	}
+	default-vertical: {
+		handle: default-splitpane-vertical
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: default-font
+		fontColor: white
+		downFontColor: active
+		overFontColor: white
+		up: button
+		down: button-down
+		over: button-down
+	}
+	toggle: {
+		font: default-font
+		fontColor: white
+		downFontColor: active
+		checkedFontColor: active
+		up: button
+		down: button-down
+		checked: button-down
+	}
+	filled: {
+		font: default-font
+		fontColor: white
+		up: button-filled
+		down: button-filled-down
+		checked: button-filled-down
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: default-font
+		fontColor: white
+		background: filled-bg
+		cursor: cursor
+		selection: selection
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+		background: default-pane
+		wrapWidth: 150
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
+	default: {
+		background: default-pane
+		knob: default-round-large
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle: {
+	default: {
+		plus: tree-plus
+		minus: tree-minus
+		selection: default-select-selection
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: window
+		titleFont: default-font
+		titleFontColor: white
+	}
+	dialog: {
+		background: default-window
+		titleFont: default-font
+		titleFontColor: white
+		stageBackground: dialogDim
+	}
+}
+}

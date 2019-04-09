@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="landscape"
+    tools:context=".ControllerActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/dPad"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.7"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintVertical_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/d_pad"
+            android:contentDescription="@string/dPadDesc" />
+
+        <Button
+            android:id="@+id/upButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textSize="20sp"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toTopOf="@id/downButton"
+            app:layout_constraintDimensionRatio="1.3:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.35"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="spread_inside" />
+
+        <Button
+            android:id="@+id/leftButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textSize="20sp"
+            android:background="@android:color/transparent"
+            app:layout_constraintVertical_bias="0.5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1.3:1"
+            app:layout_constraintEnd_toStartOf="@id/rightButton"
+            app:layout_constraintHeight_percent="0.35"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/rightButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textSize="20sp"
+            android:background="@android:color/transparent"
+            app:layout_constraintVertical_bias="0.5"
+            app:layout_constraintHeight_percent="0.35"
+            app:layout_constraintDimensionRatio="1.3:1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/leftButton"/>
+        <Button
+            android:id="@+id/downButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textSize="20sp"
+            android:background="@android:color/transparent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHeight_percent="0.35"
+            app:layout_constraintDimensionRatio="1.3:1"
+            app:layout_constraintTop_toBottomOf="@id/upButton"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

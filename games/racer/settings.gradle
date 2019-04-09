@@ -1,0 +1,2 @@
+include 'desktop', 'core', ':common'
+project(":common").projectDir = file("../../common")

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewControllerActivity">
+
+    <Button
+        android:id="@+id/bombButton"
+        style="@style/ubiquiButton"
+        android:contentDescription="@string/bombXML"
+        android:onClick="showControllerFace"
+        android:text="@string/bomb"
+        app:layout_constraintBottom_toTopOf="@+id/crossButton"
+        app:layout_constraintDimensionRatio="5:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:layout_constraintWidth_percent="0.7" />
+
+    <Button
+        android:id="@+id/crossButton"
+        style="@style/ubiquiButton"
+        android:contentDescription="@string/crossXML"
+        android:onClick="showControllerFace"
+        android:text="@string/cross"
+        app:layout_constraintBottom_toTopOf="@+id/crossAButton"
+        app:layout_constraintDimensionRatio="5:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bombButton"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintWidth_percent="0.7" />
+
+    <Button
+        android:id="@+id/crossAButton"
+        style="@style/ubiquiButton"
+        android:contentDescription="@string/crossAXML"
+        android:onClick="showControllerFace"
+        android:text="@string/crossA"
+        app:layout_constraintBottom_toTopOf="@+id/crossABButton"
+        app:layout_constraintDimensionRatio="5:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/crossButton"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintWidth_percent="0.7" />
+
+    <Button
+        android:id="@+id/crossABButton"
+        style="@style/ubiquiButton"
+        android:contentDescription="@string/crossABXML"
+        android:onClick="showControllerFace"
+        android:text="@string/crossAB"
+        app:layout_constraintBottom_toTopOf="@+id/racerButton"
+        app:layout_constraintDimensionRatio="5:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/crossAButton"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintWidth_percent="0.7" />
+
+    <Button
+        android:id="@+id/racerButton"
+        style="@style/ubiquiButton"
+        android:contentDescription="@string/racerXML"
+        android:onClick="showControllerFace"
+        android:text="@string/racer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="5:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/crossABButton"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintWidth_percent="0.7" />
+</android.support.constraint.ConstraintLayout>

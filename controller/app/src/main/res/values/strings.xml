@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">ubiquiGame Controller</string>
+    <string name="drawer_name">ubiquiGame</string>
+    <string name="noNetwork">No Network Connection Available</string>
+
+    <!-- Autofill -->
+    <string name="passwordAutofill">Enter your password</string>
+    <string name="emailAutofill">Enter your email</string>
+    <string name="identifierAutofill">Enter your email or username</string>
+    <string name="usernameAutofill">Enter your username</string>
+    <string name="avatar">avatar</string>
+
+    <!-- Buttons -->
+    <string name="register">Register</string>
+    <string name="signIn">Sign In</string>
+    <string name="createAcc">Create Account</string>
+    <string name="guest">Play As Guest</string>
+    <string name="save">Save</string>
+    <string name="retry">Retry</string>
+    <string name="proceed">Proceed anyway</string>
+    <string name="logout">Logout</string>
+    <string name="ready">Ready</string>
+    <string name="search">Search</string>
+    <string name="stopSearch">Stop Searching</string>
+    <string name="profile">Profile</string>
+    <string name="aButton">A</string>
+    <string name="bButton">B</string>
+    <string name="next">Next</string>
+    <string name="boost">Boost</string>
+    <string name="accelerate">Accelerate</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="edit">Edit</string>
+    <string name="account">Use Account</string>
+    <string name="bomb">Bomb Controller-layout</string>
+    <string name="racer">Racer Controller-layout</string>
+    <string name="cross">Cross Controller-layout</string>
+    <string name="crossA">Cross A Controller-layout</string>
+    <string name="crossAB">Cross AB  Controller-layout</string>
+
+    <!-- Descriptions -->
+    <string name="bombXML">controller_bomb</string>
+    <string name="racerXML">controller_racer</string>
+    <string name="crossXML">controller_cross</string>
+    <string name="crossAXML">controller_cross_a</string>
+    <string name="crossABXML">controller_cross_ab</string>
+    <string name="dPadDesc">Directional Pad</string>
+
+    <!-- EditText / TextView -->
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <!-- .java Strings -->
+    <string name="checking">Checking for account…</string>
+    <string name="score">Score:&#160;</string>
+    <string name="backAgain">Please click BACK again to exit</string>
+
+    <!-- Strings for Playercard -->
+    <string name="emptyPlayername">Player not connected</string>
+    <string name="emptyReady">- - -</string>
+    <string name="testReadyOrNot">readyOrNot</string>
+</resources>

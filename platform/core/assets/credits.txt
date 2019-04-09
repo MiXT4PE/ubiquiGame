@@ -1,0 +1,56 @@
+___Ubiqui Game
+
+
+__Projekt Leitung
+Mareike Koch
+Nils Rubehn
+
+
+__Plattform
+ Marius Fußer (Leitung)
+ Marco Schmitt
+ Philipp Sonder
+ Sven Weinstein
+
+
+__Games
+
+_Ticking Bomb
+ Sebastian Strücker (Leitung)
+ 
+_Tetris 
+ Manuel Rettel
+ 
+_Racer
+ Markus Beez
+ 
+_Space Shooter
+ Yakup Esin
+ 
+_Memory
+ Hatun Dalkilic
+
+_Square Run
+ Roman Dyschel
+
+_Enchanted Labyrinth
+ Tatjana Gelgorn
+
+
+__Controller
+ Fabian Grupp (Leitung)
+ Leon Heess
+
+
+__Graphics
+ Yakup Esin (Leitung)
+ Leon Heess
+
+
+__Architecture
+Marius Fußer
+Sven Weinstein
+Markus Beez
+Leon Heess
+Fabian Grupp
+Nils Rubehn

@@ -1,0 +1,2 @@
+include 'desktop', 'core', ':ubiquiGameCommon'
+project(":ubiquiGameCommon").projectDir = file("../../common")

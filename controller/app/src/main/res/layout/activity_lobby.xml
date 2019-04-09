@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    style="@style/parentViewStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:screenOrientation="portrait"
+    tools:context=".LobbyActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/player1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@id/player2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintDimensionRatio="4:1"
+        app:layout_constraintWidth_percent="0.85">
+
+        <include layout="@layout/player_card" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/player2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@id/player3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/player1"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintDimensionRatio="4:1"
+        app:layout_constraintWidth_percent="0.85">
+
+        <include layout="@layout/player_card"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/player3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@id/player4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/player2"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintDimensionRatio="4:1"
+        app:layout_constraintWidth_percent="0.85">
+
+        <include layout="@layout/player_card"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/player4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@id/readyButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/player3"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintDimensionRatio="4:1"
+        app:layout_constraintWidth_percent="0.85">
+
+        <include layout="@layout/player_card"/>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/readyButton"
+        style="@style/ubiquiButton"
+        android:onClick="ready"
+        android:text="@string/ready"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintDimensionRatio="5.5:1"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/player4"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintWidth_percent="0.8" />
+
+</android.support.constraint.ConstraintLayout>
