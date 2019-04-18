@@ -8,7 +8,7 @@ https://play.google.com/store/apps/details?id=com.ubiquigame.controller
 ### Desktop-Client
 
 ### About
-This project was started as part of the course IT-Projekt 2 within the computer science major at [Hochschule für Technik](https://www.hft-stuttgart.de/) in Stuttgart, Germany. It was open-sourced after the conclusion of the course and was created by:
+This project was started as part of the course IT-Projekt 2 within the computer science major at the [Hochschule für Technik](https://www.hft-stuttgart.de/) in Stuttgart, Germany. It was open-sourced after the conclusion of the course and was created by:
 
 * Mareike Koch
 * Marius Fußer
