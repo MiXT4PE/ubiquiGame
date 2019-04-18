@@ -1,5 +1,12 @@
 # ubiquiGame
 
+![Top Language](https://img.shields.io/github/languages/top/:MiXT4PE/:ubiquiGame.svg)
+![license](https://img.shields.io/github/license/:MiXT4PE/:ubiquiGame.svg)
+![Size](https://img.shields.io/github/repo-size/:MiXT4PE/:ubiquiGame.svg)
+![Issues](https://img.shields.io/github/issues-raw/:MiXT4PE/:ubiquiGame.svg)
+
+
+
 <img src="https://heess.me/img/projects/UbiquiGame.png" height="200px">
 
 ### Android-App
