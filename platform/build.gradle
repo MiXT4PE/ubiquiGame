@@ -10,15 +10,25 @@ buildscript {
         google()
     }
     dependencies {
-        
+        classpath 'edu.sc.seis.gradle:launch4j:2.4.4'
 
     }
+}
+
+plugins {
+  id 'java'
+  id 'edu.sc.seis.launch4j' version '2.4.4'
+}
+
+launch4j {
+apply plugin: 'edu.sc.seis.launch4j'
+	mainClassName = 'ubiquigame.platform.desktop.DesktopLauncher'
 }
 
 allprojects {
     apply plugin: "eclipse"
     apply plugin: "idea"
-
+	apply plugin: 'edu.sc.seis.launch4j'
     version = '1.0'
     ext {
         appName = "ubiquiGamePlatform"

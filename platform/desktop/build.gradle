@@ -1,4 +1,5 @@
 apply plugin: "java"
+apply plugin: 'edu.sc.seis.launch4j'
 
 sourceCompatibility = 1.8
 sourceSets.main.java.srcDirs = [ "src/" ]
@@ -31,7 +32,7 @@ task debug(dependsOn: classes, type: JavaExec) {
     debug = true
 }
 
-task dist(type: Jar) {
+jar {
     archivesBaseName = appName
     from files(sourceSets.main.output.classesDir)
     from files(sourceSets.main.output.resourcesDir)
@@ -43,7 +44,15 @@ task dist(type: Jar) {
     }
 }
 
-dist.dependsOn classes
+createExe {
+	outfile = 'UbiquiGame.exe'
+	icon = "${projectDir}/icon.ico"
+	mainClassName = project.ext.mainClassName
+}
+
+
+jar.dependsOn classes
+
 
 eclipse {
     project {
