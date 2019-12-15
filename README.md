@@ -1,4 +1,4 @@
-# ubiquiGame
+# ubiquiGame (discontinued)
 
 ![Top Language](https://img.shields.io/github/languages/top/:MiXT4PE/:ubiquiGame.svg)
 ![license](https://img.shields.io/github/license/:MiXT4PE/:ubiquiGame.svg)
@@ -8,12 +8,6 @@
 
 
 <img src="https://heess.me/img/projects/UbiquiGame.png" height="200px">
-
-### Android-App
-https://play.google.com/store/apps/details?id=com.ubiquigame.controller
-
-### Desktop-Client
-https://www.microsoft.com/en-us/p/ubiquigame
 
 ### About
 This project was started as part of the course *IT-Projekt 2* within the computer science major at the [Hochschule für Technik](https://www.hft-stuttgart.de/) in Stuttgart, Germany. It was open-sourced after the conclusion of the course and was created by:
