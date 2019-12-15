@@ -1,6 +1,6 @@
 # ubiquiGame (discontinued)
 
-![Top Language](https://img.shields.io/github/languages/top/:Mi)
+![Top Language](https://img.shields.io/github/languages/top/:MiXT4PE/:ubiquiGame)
 ![license](https://img.shields.io/github/license/:MiXT4PE/:ubiquiGame)
 ![Size](https://img.shields.io/github/repo-size/:MiXT4PE/:ubiquiGame)
 ![Issues](https://img.shields.io/github/issues-raw/:MiXT4PE/:ubiquiGame)
