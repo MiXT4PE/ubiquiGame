@@ -1,9 +1,9 @@
 # ubiquiGame (discontinued)
 
-![Top Language](https://img.shields.io/github/languages/top/:MiXT4PE/:ubiquiGame)
-![license](https://img.shields.io/github/license/:MiXT4PE/:ubiquiGame)
-![Size](https://img.shields.io/github/repo-size/:MiXT4PE/:ubiquiGame)
-![Issues](https://img.shields.io/github/issues-raw/:MiXT4PE/:ubiquiGame)
+![Top Language](https://img.shields.io/github/languages/top/:leonheess/:ubiquiGame)
+![license](https://img.shields.io/github/license/:leonheess/:ubiquiGame)
+![Size](https://img.shields.io/github/repo-size/:leonheess/:ubiquiGame)
+![Issues](https://img.shields.io/github/issues-raw/:leonheess/:ubiquiGame)
 
 <img src="https://heess.me/img/projects/UbiquiGame.png" height="200px">
 
