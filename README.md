@@ -1,7 +1,7 @@
 # ubiquiGame (discontinued)
 
+![License](https://img.shields.io/github/license/leonheess/ubiquiGame)
 ![Top Language](https://img.shields.io/github/languages/top/leonheess/ubiquiGame)
-![license](https://img.shields.io/github/license/leonheess/ubiquiGame)
 ![Size](https://img.shields.io/github/repo-size/leonheess/ubiquiGame)
 ![Issues](https://img.shields.io/github/issues-raw/leonheess/ubiquiGame)
 
